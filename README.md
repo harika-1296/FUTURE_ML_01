@@ -12,6 +12,7 @@ To forecast future sales based on past trends using Machine Learning techniques.
 - NumPy
 - Matplotlib
 - Scikit-learn
+- Streamlit (for dashboard)
 
 ## 📊 Key Steps
 - Data cleaning and preprocessing
@@ -23,6 +24,27 @@ To forecast future sales based on past trends using Machine Learning techniques.
 ## 📈 Results
 - Sales show fluctuations with an overall increasing trend
 - Forecast predicts steady growth in future sales
+
+## 📊 Dashboard
+
+An interactive dashboard was built using Streamlit to visualize sales trends and insights.
+
+### Features:
+- 📈 Monthly sales trend visualization  
+- 💰 KPI metrics (Total, Average, Max Sales)  
+- 📅 Date filtering for analysis  
+- 📊 Data preview for better understanding
+
+## ▶️ How to Run the Project
+
+1. Install required libraries:
+pip install pandas numpy matplotlib scikit-learn streamlit
+
+2. Run the dashboard:
+streamlit run app.py
+
+
+
 
 ## 💼 Business Impact
 - Helps in inventory planning
